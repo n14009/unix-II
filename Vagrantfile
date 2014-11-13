@@ -12,3 +12,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
              config.proxy.no_proxy = "localhost,127.0.0.1,.it-college.local" 
         end
   end
+#vagrant halt     => 停止 
+#vagrant init     => 追加
+#vagrant destroy  => initしたものを削除
